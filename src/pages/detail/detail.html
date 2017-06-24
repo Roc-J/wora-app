@@ -7,7 +7,7 @@
 <ion-header>
 
   <ion-navbar color="primary">
-    <ion-title>{{ film.title }}</ion-title>
+    <ion-title>{{ film.name }}</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -17,7 +17,9 @@
 
   <ion-card>
     <ion-card-content>
-      {{ film.opening_crawl }}
+      <p style="font-size: 16px;font-weight: 600;">{{ film.name }}</p>
+      <br />
+      <p style="font-size: 16px;font-weight: 600;">{{ film.description }}</p>
     </ion-card-content>
   </ion-card>
 

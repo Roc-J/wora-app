@@ -14,10 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class DetailPage {
   film: any
 
-  constructor(
-    public navCtrl: NavController,
-    public navParams: NavParams,
-  ) {
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ngOnInit() {

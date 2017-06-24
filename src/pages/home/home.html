@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>健康讲堂</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -15,15 +15,13 @@
 
 </ion-card -->
 
-
-
 <ion-list>
   <button
     ion-item
-    *ngFor="let film of (films | async)?.results"
+    *ngFor="let film of (films | async)?.result"
     (click)="openDetails(film)"
   >
-    {{ film.title }}
+    {{ film.name }}
   </button>
 </ion-list>
 
